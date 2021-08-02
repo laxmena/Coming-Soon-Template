@@ -44,3 +44,7 @@ input:-webkit-autofill:active {
 #notifs-form-input:focus {
   border: solid 2px #ccc;
 }
+
+body {
+  background-color: black;
+}
