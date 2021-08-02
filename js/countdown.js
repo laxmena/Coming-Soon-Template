@@ -1,7 +1,7 @@
 var countDownDate = new Date();
     // Replace with desired date 'January 17, 2019 03:24:00', example
     // countDownDate.setDate('January 17, 2019 03:24:00').getTime();
-    countDownDate.setDate('August 15, 2021 12:00:00');
+    countDownDate.setDate(15);
     countDownDate.getTime();
 
     // Update the count down every 1 second

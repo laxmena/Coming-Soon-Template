@@ -7,7 +7,6 @@ function validateEmail(email) {
 var config = {
     apiKey: "AIzaSyCkMeqE62JdNfqie2WURXLVWNfM2Kx7Ryc",
     authDomain: "gnani-fans.firebaseapp.com",
-    databaseURL: "<DB URL>",
     projectId: "gnani-fans",
     storageBucket: "gnani-fans.appspot.com",
     messagingSenderId: "119214005488",
@@ -23,6 +22,7 @@ db.settings({
 $(document).ready(function () {
 
     $('#notifs-form-btn').click(function (e) {
+        $('#notifs-form-input').val(''); return;
         var is_present = false;
         email = $('#notifs-form-input').val();
         if (validateEmail(email)) {
