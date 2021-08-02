@@ -5,12 +5,14 @@ function validateEmail(email) {
 }
 
 var config = {
-    apiKey: "<YOUR FIREBASE API KEY>",
-    authDomain: "<FIREBASE AUTH DOMAIN>",
+    apiKey: "AIzaSyCkMeqE62JdNfqie2WURXLVWNfM2Kx7Ryc",
+    authDomain: "gnani-fans.firebaseapp.com",
     databaseURL: "<DB URL>",
-    projectId: "<PROJECT ID>",
-    storageBucket: "<STRORAGE BUKCET>",
-    messagingSenderId: "<MESSAGE SENDER ID>"
+    projectId: "gnani-fans",
+    storageBucket: "gnani-fans.appspot.com",
+    messagingSenderId: "119214005488",
+    appId: "1:119214005488:web:d0087ebbe9a501b124b635",
+    measurementId: "G-0X53JQ39XH"
 };
 firebase.initializeApp(config);
 var db = firebase.firestore();
